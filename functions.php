@@ -16,4 +16,4 @@ function enqueue_parent_theme_style() {
 /**
  * Load IMGD Framework compatibility file.
  */
-require get_template_directory() . '/imgd/imgd_funciones.php';
+//require get_template_directory() . '/imgd/imgd_funciones.php';
