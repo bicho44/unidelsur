@@ -1,0 +1,16 @@
+/*
+Theme Name: Uniformes del Sur
+Theme URI: http://woothemes.com/storefront
+Author: IMGDigital
+Author URI: http://www.imgdigital.com.ar/unidelsur
+Template: storefront
+Description: Child Theme para Uniformes del Sur de StoreFront
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: imgd
+*/
+
+.price del {
+  display: none;
+}
