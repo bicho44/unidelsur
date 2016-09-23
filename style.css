@@ -30,6 +30,6 @@ li > del,
   font-size: 24px;
 }
 
-.site-main ul.products li.product{
+.related.products .site-main ul.products li.product{
    width: 15%;
 }
