@@ -24,19 +24,19 @@ function enqueue_parent_theme_style() {
 * https://docs.woocommerce.com/document/change-number-of-products-per-row/
 */
 function loop_columns() {
-return 4; // 5 products per row
+        return 4; // 5 products per row
 }
-add_filter('loop_shop_columns', 'loop_columns', 999);
+add_filter('storefront_loop_columns', 'loop_columns', 999);
 
 
 /**
 * https://w3guy.com/customizing-woocommerce-storefront-child-themes/
 */
-add_filter( 'storefront_recent_products_args', 'w3guy_storefront_recent_products', 199 );
+// add_filter( 'storefront_loop_columns', 'w3guy_storefront_recent_products', 199 );
  
-function w3guy_storefront_recent_products( $args ) {
- $args['limit']   = 6;
- $args['columns'] = 4;
+// function w3guy_storefront_recent_products( $args ) {
+//  $args['limit']   = 6;
+//  $args['columns'] = 4;
  
- return $args;
-}
+//  return $args;
+// }
