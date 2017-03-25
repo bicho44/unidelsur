@@ -23,10 +23,10 @@ function enqueue_parent_theme_style() {
 * Override theme default specification for product # per row
 * https://docs.woocommerce.com/document/change-number-of-products-per-row/
 */
-function loop_columns() {
+function imgd_loop_columns() {
         return 5; // 5 products per row
 }
-add_filter('storefront_loop_columns', 'loop_columns', 999);
+add_filter('storefront_loop_columns', 'imgd_loop_columns', 999);
 
 
 /**
