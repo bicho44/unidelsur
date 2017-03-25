@@ -17,3 +17,15 @@ function enqueue_parent_theme_style() {
  * Load IMGD Framework compatibility file.
  */
 //require get_template_directory() . '/imgd/imgd_funciones.php';
+
+/**
+* https://w3guy.com/customizing-woocommerce-storefront-child-themes/
+*/
+add_filter( 'storefront_recent_products_args', 'w3guy_storefront_recent_products', 199 );
+ 
+function w3guy_storefront_recent_products( $args ) {
+ $args['limit']   = 6;
+ $args['columns'] = 4;
+ 
+ return $args;
+}
