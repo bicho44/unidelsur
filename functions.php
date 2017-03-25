@@ -24,7 +24,7 @@ function enqueue_parent_theme_style() {
 * https://docs.woocommerce.com/document/change-number-of-products-per-row/
 */
 function loop_columns() {
-        return 4; // 5 products per row
+        return 5; // 5 products per row
 }
 add_filter('storefront_loop_columns', 'loop_columns', 999);
 
