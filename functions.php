@@ -26,7 +26,7 @@ function enqueue_parent_theme_style() {
 function imgd_loop_columns() {
         return 4; // 5 products per row
 }
-add_filter('storefront_loop_columns', 'imgd_loop_columns', 199);
+//add_filter('storefront_loop_columns', 'imgd_loop_columns', 199);
 
 
 /**
