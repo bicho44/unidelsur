@@ -12,20 +12,32 @@ Text Domain: imgd
 */
 
 .site-header {
-    padding-top: .9em;
+    padding-top: 0;
 }
 .beta, h2{
   font-size: 1.8em;
+}
+.product_title{
+  margin-bottom: .2em;
 }
 .site-branding .site-description{
   font-size: .85em;
 }
 .single-product div.product .price {
-  font-size: 32px;
+  font-size: 16px;
   margin-bottom: 10px;
   text-align: right;
 }
-
+.single-product div.product .single_variation .price{
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.single-product div.product form.cart{
+  padding-top: 0;
+}
+.single-product div.product table.variations td, .single-product div.product table.variations th{
+  display: inline;
+}
 li > del,
 .price del {
   display: none;
@@ -33,7 +45,11 @@ li > del,
 .wcpb-bundled-product-title h1 {
   font-size: 24px;
 }
-
 .related .site-main ul.products li.product{
    width: 15%;
+}
+@media (min-width: 768px){
+  .woocommerce-breadcrumb {
+      margin-bottom: 1em;
+  }
 }
