@@ -18,6 +18,17 @@ function enqueue_parent_theme_style() {
  */
 //require get_template_directory() . '/imgd/imgd_funciones.php';
 
+
+/**
+* Override theme default specification for product # per row
+* https://docs.woocommerce.com/document/change-number-of-products-per-row/
+*/
+function loop_columns() {
+return 4; // 5 products per row
+}
+add_filter('loop_shop_columns', 'loop_columns', 999);
+
+
 /**
 * https://w3guy.com/customizing-woocommerce-storefront-child-themes/
 */
