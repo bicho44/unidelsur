@@ -13,6 +13,7 @@ function enqueue_parent_theme_style() {
 
 /* Add any custom PHP below this line of text */
 
+
 /**
  * Load IMGD Framework compatibility file.
  */
