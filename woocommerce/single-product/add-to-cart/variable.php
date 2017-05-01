@@ -2,11 +2,11 @@
 /**
  * Variable product add to cart
  *
+ * Modified to use radio buttons instead of dropdowns
+ *
  * @author  WooThemes
  * @package WooCommerce/Templates
  * @version 2.5.0
- *
- * Modified to use radio buttons instead of dropdowns
  * @author 8manos
  */
 
