@@ -61,8 +61,14 @@ li > del,
 .handheld-navigation, button.menu-toggle{
   background-color: #1e73be;
 }
+button.menu-toggle:hover{
+ background-color: #1e73be; 
+}
 .handheld-navigation > .menu-item {
   padding-left: 16px;
+}
+.storefront-handheld-footer-bar{
+  background-color: #1e73be; 
 }
 @media (min-width: 768px){
   .storefront-primary-navigation{
