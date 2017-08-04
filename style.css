@@ -57,6 +57,10 @@ li > del,
    width: 15%;
 }
 
+button.menu-toggle{
+  background-color: #1e73be;
+}
+
 .handheld-navigation, .menu-toggle{
   background-color: #1e73be;
 }
