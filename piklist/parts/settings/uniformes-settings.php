@@ -94,8 +94,6 @@ foreach ($registered_post_types as $post_type => $value)
         )
   ));
 
-
-
   piklist('field', array(
     'type' => 'select'
     ,'field' => 'imgd_slider_size'

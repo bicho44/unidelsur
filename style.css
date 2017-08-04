@@ -20,6 +20,9 @@ Text Domain: imgd
 .product_title{
   margin-bottom: .2em;
 }
+.storefront-primary-navigation{
+  background-color: #1e73be;
+}
 .site-branding .site-description{
   font-size: .85em;
 }
