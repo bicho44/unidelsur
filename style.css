@@ -57,12 +57,12 @@ li > del,
    width: 15%;
 }
 
-button.menu-toggle{
+
+.handheld-navigation, button.menu-toggle{
   background-color: #1e73be;
 }
-
-.handheld-navigation, .menu-toggle{
-  background-color: #1e73be;
+.handheld-navigation > .menu-item {
+  padding-left: 16px;
 }
 @media (min-width: 768px){
   .storefront-primary-navigation{
