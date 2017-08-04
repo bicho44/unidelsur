@@ -20,9 +20,7 @@ Text Domain: imgd
 .product_title{
   margin-bottom: .2em;
 }
-.storefront-primary-navigation{
-  background-color: #1e73be;
-}
+
 .site-branding .site-description{
   font-size: .85em;
 }
@@ -58,7 +56,14 @@ li > del,
 .related .site-main ul.products li.product{
    width: 15%;
 }
+
+.handheld-navigation, .menu-toggle{
+  background-color: #1e73be;
+}
 @media (min-width: 768px){
+  .storefront-primary-navigation{
+    background-color: #1e73be;
+  }
   .woocommerce-breadcrumb {
       margin-bottom: 1em;
   }
