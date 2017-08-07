@@ -72,6 +72,10 @@ button.menu-toggle:hover{
 {
   background-color: #1e73be; 
 }
+.storefront-handheld-footer-bar ul li.cart .count {
+    color: #1e73be; 
+}
+
 @media (min-width: 768px){
   .storefront-primary-navigation{
     background-color: #1e73be;
