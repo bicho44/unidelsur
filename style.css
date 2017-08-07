@@ -67,7 +67,9 @@ button.menu-toggle:hover{
 .handheld-navigation > .menu-item {
   padding-left: 16px;
 }
-.storefront-handheld-footer-bar{
+
+.site-footer .storefront-handheld-footer-bar a:not(.button)
+{
   background-color: #1e73be; 
 }
 @media (min-width: 768px){
