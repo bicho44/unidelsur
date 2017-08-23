@@ -85,7 +85,7 @@ button.menu-toggle:hover{
   }
   .site-header .site-branding {
       width: 30%;
-      margin-bottom: 0;
+      margin-bottom: 10px;
   }
   .custom-logo-link, .site-branding, .site-header-cart, .site-logo-anchor, .site-logo-link, .site-search {
     margin-bottom: 0;
