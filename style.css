@@ -5,33 +5,35 @@ Author: IMGDigital
 Author URI: http://www.imgdigital.com.ar/unidelsur
 Template: storefront
 Description: Child Theme para Uniformes del Sur de StoreFront
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: imgd
 */
-h1, h2 {
-  font-family: 'Lobster Two', cursive;
+h1,
+h2 {
+  font-family: "Lobster Two", cursive;
 }
 
 .site-header {
-    padding-top: 0;
+  padding-top: 0;
 }
-.beta, h2{
+.beta,
+h2 {
   font-size: 1.8em;
 }
-.product_title{
-  margin-bottom: .2em;
+.product_title {
+  margin-bottom: 0.2em;
 }
 
-.site-branding .site-description{
-  font-size: .85em;
+.site-branding .site-description {
+  font-size: 0.85em;
 }
-.home.blog .site-header, 
-.home.page:not(.page-template-template-homepage) .site-header, 
-.home.post-type-archive-product .site-header, 
-.no-wc-breadcrumb .site-header{
-  margin-bottom: .5em;
+.home.blog .site-header,
+.home.page:not(.page-template-template-homepage) .site-header,
+.home.post-type-archive-product .site-header,
+.no-wc-breadcrumb .site-header {
+  margin-bottom: 0.5em;
 }
 
 .single-product div.product .price {
@@ -39,14 +41,15 @@ h1, h2 {
   margin-bottom: 10px;
   text-align: right;
 }
-.single-product div.product .single_variation .price{
-    font-size: 32px;
-    margin-bottom: 0;
+.single-product div.product .single_variation .price {
+  font-size: 32px;
+  margin-bottom: 0;
 }
-.single-product div.product form.cart{
+.single-product div.product form.cart {
   padding-top: 0;
 }
-.single-product div.product table.variations td, .single-product div.product table.variations th{
+.single-product div.product table.variations td,
+.single-product div.product table.variations th {
   display: inline;
 }
 li > del,
@@ -56,41 +59,64 @@ li > del,
 .wcpb-bundled-product-title h1 {
   font-size: 24px;
 }
-.related .site-main ul.products li.product{
-   width: 15%;
+.related .site-main ul.products li.product {
+  width: 15%;
 }
 
-
-.handheld-navigation, button.menu-toggle{
+.handheld-navigation,
+button.menu-toggle {
   background-color: #1e73be;
 }
-button.menu-toggle:hover{
- background-color: #1e73be; 
+button.menu-toggle:hover {
+  background-color: #1e73be;
 }
 .handheld-navigation > .menu-item {
   padding-left: 16px;
 }
 
-.site-footer .storefront-handheld-footer-bar a:not(.button)
-{
-  background-color: #1e73be; 
+.site-footer .storefront-handheld-footer-bar a:not(.button) {
+  background-color: #1e73be;
 }
 .storefront-handheld-footer-bar ul li.cart .count {
-    color: #1e73be; 
+  color: #1e73be;
 }
 
-@media (min-width: 768px){
-  .storefront-primary-navigation{
+ul.products li.product .woocommerce-LoopProduct-link {
+  position: relative;
+}
+ul.products li.product .wc-new-badge {
+  font-size: 2rem;
+  border-radius: 4px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: rotate(10deg);
+}
+
+@media (min-width: 768px) {
+  .storefront-primary-navigation {
     background-color: #1e73be;
   }
   .woocommerce-breadcrumb {
-      margin-bottom: 1em;
+    margin-bottom: 1em;
   }
   .site-header .site-branding {
-      width: 30%;
-      margin-bottom: 10px;
+    width: 30%;
+    margin-bottom: 10px;
   }
-  .custom-logo-link, .site-branding, .site-header-cart, .site-logo-anchor, .site-logo-link, .site-search {
+  .custom-logo-link,
+  .site-branding,
+  .site-header-cart,
+  .site-logo-anchor,
+  .site-logo-link,
+  .site-search {
     margin-bottom: 0;
+  }
+
+  ul.products li.product .wc-new-badge {
+    font-size: 1rem;
+    top: 5%;
+    right: 5%;
   }
 }

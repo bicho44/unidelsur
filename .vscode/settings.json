@@ -1,0 +1,8 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "todohighlight.isEnable": false,
+    "typescript.check.npmIsInstalled": false,
+    "window.zoomLevel": 0,
+    "files.associations": {"*.kit": "html"}     
+}
